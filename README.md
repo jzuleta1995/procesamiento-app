@@ -1,5 +1,5 @@
 # Procesamiento-app
-Aplicación que consta de una api desarrollada en spring boot encargada con una arquitectura de 3 capas - Dao - Service - Controller con un patrón de diseño Facade.
+Aplicación que consta de una api desarrollada en spring boot, con una arquitectura de 3 capas Dao - Service - Controller con una base de datos en memoria H2 y ORM JPA, adicionalmente, se basa en el patrón de diseño Facade.
 El backend cuenta con 3 endpoints:
 1 - Listar clientes
 2 - Crear clientes
