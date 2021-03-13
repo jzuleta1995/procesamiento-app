@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="../libs/css/bootstrap.min.css">
+     <title>List Clients</title>
+</head>
+
+<body>
+     <div class="container text-center mt-4 m-auto">
+          <div class="alert alert-success text-center col-md-12 d-none mb-2 mt-2"></div>
+          <div class="card bd-light mb-3 mt-4 shadow-sm">
+               <div class="card-header text-center font-weight-bold">
+                    <h2>Listado de Clientes</h2>
+               </div>
+               <div class="card-body">
+                    <button class="btn btn-primary btn-sm offset-md-10 mb-2" id="btn-form">Crear Cliente</button>
+                    <table class="table table-striped">
+                         <thead>
+                              <tr>
+                                   <th scope="col">#</th>
+                                   <th scope="col">Nombre</th>
+                                   <th scope="col">Apellido</th>
+                                   <th scope="col">Procesado</th>
+                              </tr>
+                         <tbody id="tbody-clients">
+                         </tbody>
+                         </thead>
+                    </table>
+                    <div class="row mb-3 mt-2 d-flex justify-content-center">
+                         <button class="btn btn-success" id="btn-process">Procesar</button>
+                    </div>
+               </div>
+          </div>
+     </div>
+</body>
+<script src="../libs/js/jquery.min.js"></script>
+<script src="../libs/js/bootstrap.min.js"></script>
+<script src="../js/model/client.js"></script>
+<script src="../js/service/client.service.js"></script>
+<script src="../js/controller/ui.js"></script>
+<script src="../js/controller/index.js"></script>
+
+</html>
